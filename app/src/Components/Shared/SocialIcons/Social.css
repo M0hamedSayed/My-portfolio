@@ -1,0 +1,9 @@
+.socialIcons>a {
+    transition: all 0.2s;
+    display: inline-block;
+}
+
+.socialIcons a:hover {
+    color: var(--dark-orange) !important;
+    transform: scale(1.3);
+}

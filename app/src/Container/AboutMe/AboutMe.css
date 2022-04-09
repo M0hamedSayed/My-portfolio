@@ -1,0 +1,44 @@
+.aboutMe .card {
+    background-image: url('../../../public/assets/images/cover.jpg');
+    border: 10px solid var(--dark-orange);
+    border-top: 0;
+    border-bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutMe .rounded-3 {
+    border-radius: 1.5rem !important;
+}
+
+.aboutMe-description {
+    font-size: 1rem;
+    font-family: cursive;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+
+.aboutMe-heading {
+    font-family: 'Poppins Bold';
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+.highlight {
+    margin: 10px 0;
+}
+
+.highlight-blob {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--dark-orange);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.highlight span {
+    font-family: cursive;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,27 @@
+.profile-picture {
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+}
+
+.profile-picture-background {
+    height: 92%;
+    width: 92%;
+    background-image: url(../../../../public/assets/images/avatar.jfif);
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.2s all;
+}
+
+.profile-picture-background:hover {
+    transform: scale(1.07);
+}
+
+@media screen and (max-width:750px) {
+    .profile-picture {
+        width: 300px;
+        height: 300px;
+    }
+}

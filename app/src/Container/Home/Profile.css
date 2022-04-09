@@ -1,0 +1,7 @@
+.header-cover {
+    background-image: url('../../../public/assets/images/cover.jpg');
+    min-height: fit-content;
+    background-size: cover;
+    background-position: 0 0;
+    height: 100%;
+}

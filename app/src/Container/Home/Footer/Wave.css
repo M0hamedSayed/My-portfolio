@@ -1,0 +1,35 @@
+.footer-container {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-parent {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-parent img {
+    width: inherit;
+    /* height: 130px; */
+    /* height: inherit; */
+}
+
+@media screen and (min-width: 1110px) {
+    .footer-parent {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .footer-container {
+        height: 30.8%;
+    }
+
+    .footer-parent img {
+        width: inherit;
+        /* height: 130px; */
+        height: inherit;
+    }
+}
